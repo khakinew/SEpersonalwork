@@ -6,6 +6,8 @@ current_file_path = os.path.abspath(__file__)
 project_root = os.path.dirname(current_file_path)
 
 ABC = 1;
+DEF = 2;
+#change2
 
 class Config:
     # 使用项目根目录下的 marine.db
