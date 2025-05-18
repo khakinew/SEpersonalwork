@@ -136,13 +136,7 @@ def load_user(user_id):
 @login_required
 def index():
     return render_template('index.html')
-
-@app.route('/underwater', methods=['GET', 'POST'])
-@login_required
-def underwater():
-    return render_template('underwater.html')
-
-
+#change
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
