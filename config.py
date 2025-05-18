@@ -7,9 +7,6 @@ project_root = os.path.dirname(current_file_path)
 
 ABC = 1;
 
-=======
-DCE = 453;
->>>>>>> C4
 
 class Config:
     # 使用项目根目录下的 marine.db
