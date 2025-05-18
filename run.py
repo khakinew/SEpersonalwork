@@ -235,7 +235,7 @@ def admin():
         abort(403)
     return render_template('admin.html')
 
-@app.route('/api/water_quality', methods=['GET', 'POST'])
+@app.route('/water_quality', methods=['GET', 'POST'])
 @permission_required(Permission.DATA_VIEW)
 def water_quality():
     data = MonitorData.query.all()
