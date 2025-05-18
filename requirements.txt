@@ -2,6 +2,9 @@ flask==2.1.2
 flask-sqlalchemy==3.0.1
 flask-migrate==4.0.5
 python-dotenv==0.20.1
+<<<<<<< HEAD
 marshmallow==3.19.0
+int123456
+=======
 python-dateutil==2.9.0
 

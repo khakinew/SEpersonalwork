@@ -7,6 +7,7 @@ project_root = os.path.dirname(current_file_path)
 
 ABC = 1;
 
+
 class Config:
     # 使用项目根目录下的 marine.db
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(project_root, 'marine.db')

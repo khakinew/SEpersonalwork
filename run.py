@@ -136,13 +136,7 @@ def load_user(user_id):
 @login_required
 def index():
     return render_template('index.html')
-
-@app.route('/underwater', methods=['GET', 'POST'])
-@login_required
-def underwater():
-    return render_template('underwater.html')
-
-
+#change
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -175,7 +169,7 @@ def login():
 
     # 处理GET请求（如果有）
     return render_template('login.html')
-
+#change
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -241,7 +235,7 @@ def admin():
         abort(403)
     return render_template('admin.html')
 
-@app.route('/api/water_quality', methods=['GET', 'POST'])
+@app.route('/water_quality', methods=['GET', 'POST'])
 @permission_required(Permission.DATA_VIEW)
 def water_quality():
     data = MonitorData.query.all()
