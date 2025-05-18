@@ -142,10 +142,6 @@ def index():
 def underwater():
     return render_template('underwater.html')
 
-@app.route('/smart_center', methods=['GET', 'POST'])
-@login_required
-def smart_center():
-    return render_template('smart_center.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])

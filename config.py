@@ -5,6 +5,8 @@ current_file_path = os.path.abspath(__file__)
 # 推导到项目根目录（假设 config.py 在项目根目录下）
 project_root = os.path.dirname(current_file_path)
 
+ABC = 1;
+
 class Config:
     # 使用项目根目录下的 marine.db
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(project_root, 'marine.db')
